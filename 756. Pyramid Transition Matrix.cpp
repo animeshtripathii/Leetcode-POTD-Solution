@@ -8,7 +8,7 @@ public:
         // Base Case: We reached the top of the pyramid (only 1 block remains)
         if (curr.length() == 1) return true;
 
-        // --- EXPLANATION OF YOUR KEY LOGIC ---
+        // --- EXPLANATION OF KEY LOGIC ---
         // We create a unique key because the result depends on 3 changing states:
         // 1. 'curr': The current row we are building ON TOP OF.
         // 2. 'idx': The position we are currently looking at in 'curr'.
